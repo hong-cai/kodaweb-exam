@@ -1,0 +1,13 @@
+@import "styles/normalize";
+@import "styles/components/logo";
+@import "styles/components/nav";
+@import "styles/components/paragraph";
+@import "styles/components/img_thumb";
+@import "styles/components/mixins";
+@import "~bootstrap/scss/bootstrap";
+body {}
+
+.header {
+    background: url('../public/banner1.jpg') no-repeat scroll center top / cover;
+    z-index: 1;
+}
